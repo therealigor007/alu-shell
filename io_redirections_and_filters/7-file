@@ -1,4 +1,2 @@
-cat > 7-file << 'EOF'
-#!/bin/bash
-echo "Best School" > "\*\\\\\"Best School\"\\\\*\$\\?\\*\\*\\*\\*\\*:)"
-EOF
+echo '#!/bin/bash' > 7-file
+echo 'echo "Best School" > "\*\\\\\"Best School\"\\\\*\$\\?\\*\\*\\*\\*\\*:)"' >> 7-file
